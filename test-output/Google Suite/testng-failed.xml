@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" thread-count="1" parallel="tests" name="Failed suite [Google Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="tests" name="Google UI automation(failed)">
+    <classes>
+      <class name="com.nttd.automation.bdd.common.TestRunnerASDF">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="withoutInjection"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.nttd.automation.bdd.common.TestRunnerASDF -->
+    </classes>
+  </test> <!-- Google UI automation(failed) -->
+</suite> <!-- Failed suite [Google Suite] -->
